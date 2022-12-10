@@ -22,18 +22,20 @@ html {
 .calendar {
   width: 45rem;
   height: 52rem;
-  background-color: #222227;
+  background-color: white;
   box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
 }
 
 .month {
   width: 100%;
   height: 12rem;
-  background-color: #2192FF;
+  color: black;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  font-weight: bold;
   text-align: center;
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
 }
@@ -61,6 +63,8 @@ html {
   padding: 0 0.4rem;
   display: flex;
   align-items: center;
+  background-color: #2192FF;
+  
 }
 
 .weekdays div {
@@ -71,7 +75,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  text-shadow: 0 0.3rem 0.5rem rgba(255, 255, 255, 0.5);
 }
 
 .days {
@@ -79,6 +84,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   padding: 0.2rem;
+  background-color: #eee;
 }
 
 .days div {
@@ -89,12 +95,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+  font-weight: bold;
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
   transition: background-color 0.2s;
 }
 
 .days div:hover:not(.today) {
-  background-color: #262626;
+  background-color: #2192FF;
   border: 0.2rem solid #777;
   cursor: pointer;
 }
