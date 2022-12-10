@@ -85,7 +85,7 @@ font-weight: bold;
 }
 .prev:hover,
 .next:hover{
-  background-color: rgb(12, 112, 235);
+  background-color: #009EFF;
   cursor: pointer;
 }
 .days div:hover{
